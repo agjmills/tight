@@ -1,7 +1,8 @@
 # Tight
 
+> **This package not stable and probably shouldn't be used yet. Feel free to experiment with it, however.**
+
 ## About
-**This package is under development and probably shouldn't be used yet. Feel free to experiment with it, however.**
 
 Tight, is a really tiny and light PHP framework, for those occasions when Laravel or Symfony are too much.
 
