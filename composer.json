@@ -2,14 +2,8 @@
     "name": "asdfx/tight",
     "description": "A really tiny and light PHP framework",
     "type": "project",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/agjmills/tight-framework.git"
-        }
-    ],
     "require": {
-        "asdfx/tight-framework": "dev-master"
+        "asdfx/tight-framework": "^0.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.0",
