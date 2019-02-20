@@ -5,6 +5,8 @@
 
 Tight, is a really tiny and light PHP framework, for those occasions when Laravel or Symfony are too much.
 
+The framework code can be found here: [asdfx/tight-framework](https://github.com/agjmills/tight-framework)
+
 Currently it depends upon `bramus/router` for routing and `twig/twig` for template rendering.
 
 ## Installation
