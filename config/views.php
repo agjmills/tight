@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'path' => __DIR__ . '/resources/views',
-    'cache' => __DIR__ . '/storage/cache/views'
+    'path' => 'resources/views',
+    'cache' => 'storage/cache/views'
 ];
