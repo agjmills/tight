@@ -2,6 +2,8 @@
 
 > **This package not stable and probably shouldn't be used yet. Feel free to experiment with it, however.**
 
+Pipeline Status: [![CircleCI](https://circleci.com/gh/agjmills/tight.svg?style=svg)](https://circleci.com/gh/agjmills/tight)
+
 ## About
 
 Tight, is a really tiny and light PHP framework, for those occasions when Laravel or Symfony are too much.
