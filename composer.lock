@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agjmills/tight-framework.git",
-                "reference": "002f3f64856391534b989ac4b5020dfe31632d02"
+                "reference": "f57448c58abd5d276978a424066b21d3597a1b49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agjmills/tight-framework/zipball/002f3f64856391534b989ac4b5020dfe31632d02",
-                "reference": "002f3f64856391534b989ac4b5020dfe31632d02",
+                "url": "https://api.github.com/repos/agjmills/tight-framework/zipball/f57448c58abd5d276978a424066b21d3597a1b49",
+                "reference": "f57448c58abd5d276978a424066b21d3597a1b49",
                 "shasum": ""
             },
             "require": {
@@ -34,7 +34,10 @@
             "autoload": {
                 "psr-4": {
                     "Asdfx\\Tight\\": "src/"
-                }
+                },
+                "files": [
+                    "app/helpers.php"
+                ]
             },
             "license": [
                 "MIT"
@@ -50,7 +53,7 @@
                 "source": "https://github.com/agjmills/tight-framework/tree/master",
                 "issues": "https://github.com/agjmills/tight-framework/issues"
             },
-            "time": "2019-02-20T14:00:18+00:00"
+            "time": "2019-02-20T14:02:04+00:00"
         },
         {
             "name": "bramus/router",
