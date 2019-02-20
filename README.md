@@ -10,7 +10,7 @@ Currently it depends upon `bramus/router` for routing and `twig/twig` for templa
 ## Installation
 
 ```
-composer create-project asdfx/tight
+composer create-project asdfx/tight -s dev
 ```
 
 ## Contributing
