@@ -4,8 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8e0041b5037816b064a5fda1f930327",
+    "content-hash": "9b4de08559c85b1295cf9e3644201e63",
     "packages": [
+        {
+            "name": "asdfx/tight-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agjmills/tight-framework.git",
+                "reference": "002f3f64856391534b989ac4b5020dfe31632d02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agjmills/tight-framework/zipball/002f3f64856391534b989ac4b5020dfe31632d02",
+                "reference": "002f3f64856391534b989ac4b5020dfe31632d02",
+                "shasum": ""
+            },
+            "require": {
+                "bramus/router": "^1.4",
+                "symfony/var-dumper": "^4.2",
+                "twig/twig": "^2.6"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "^2.6",
+                "phpunit/phpunit": "^8.0",
+                "squizlabs/php_codesniffer": "^3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Asdfx\\Tight\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Mills",
+                    "email": "alex@asdfx.us"
+                }
+            ],
+            "description": "The framework containing core code for the Tight framework",
+            "support": {
+                "source": "https://github.com/agjmills/tight-framework/tree/master",
+                "issues": "https://github.com/agjmills/tight-framework/issues"
+            },
+            "time": "2019-02-20T14:00:18+00:00"
+        },
         {
             "name": "bramus/router",
             "version": "1.4",
@@ -2245,7 +2291,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "asdfx/tight-framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
